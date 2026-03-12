@@ -31,6 +31,7 @@ export default function Hero() {
 
   return (
     <section
+      id="home"
       className="min-h-screen flex flex-col items-center justify-start pt-20 text-center px-6 relative transition-colors duration-300"
       style={{ background: "var(--bg-primary)" }}
     >
@@ -76,7 +77,28 @@ export default function Hero() {
         >
           View My Work
         </a>
-
+        <a
+          href="/Belatrache_Ishak_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open CV in new tab"
+          className="font-semibold px-8 py-3 rounded transition-all duration-200"
+          style={{
+            border: "1.5px solid #22d3ee",
+            color: "#22d3ee",
+            background: "transparent",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(34, 211, 238, 0.15)";
+            e.currentTarget.style.color = "#22d3ee";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "transparent";
+            e.currentTarget.style.color = "#22d3ee";
+          }}
+        >
+          Download CV
+        </a>
         <a
           href="#contact"
           className="font-semibold px-8 py-3 rounded transition-all duration-200"

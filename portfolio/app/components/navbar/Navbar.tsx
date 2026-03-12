@@ -128,8 +128,10 @@ export default function Navbar() {
 
               {/* Download CV */}
               <a
-                href="/cv.pdf"
-                download="CV_ISHAK.pdf"
+                href="/Belatrache_Ishak_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open CV in new tab"
                 className="shrink-0 font-semibold text-sm px-5 py-2 rounded-lg transition-all duration-200"
                 style={{
                   background: "linear-gradient(135deg, #0891b2, #22d3ee)",
@@ -228,8 +230,10 @@ export default function Navbar() {
 
             {/* Download CV */}
             <a
-              href="/cv.pdf"
-              download="CV_ISHAK.pdf"
+              href="/Belatrache_Ishak_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open CV in new tab"
               onClick={() => setOpen(false)}
               className="mt-1 text-center font-semibold text-sm px-5 py-3 rounded-lg transition-all duration-200"
               style={{

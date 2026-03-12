@@ -93,8 +93,10 @@ export default function About() {
           {/* Download CV */}
           <div className="pt-8 flex justify-center">
             <a
-              href="/cv.pdf"
-              download="CV_Belatrache_Ishak.pdf"
+              href="/Belatrache_Ishak_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open CV in new tab"
               className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white dark:text-[#0f172a] font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
             >
               Download CV
