@@ -20,7 +20,7 @@ export interface TechItem {
 export const socials: SocialLink[] = [
   {
     label: "GitHub",
-    href: "https://github.com/",
+    href: "https://github.com/isaacbel",
     color: "#e2e8f0",
     icon: (
       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ export const socials: SocialLink[] = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/",
+    href: "https://www.linkedin.com/in/belatrache-ishak-85b41829b/",
     color: "#0ea5e9",
     icon: (
       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@ export const socials: SocialLink[] = [
   },
   {
     label: "Instagram",
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/isaaac.be/",
     color: "#f472b6",
     icon: (
       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ export const socials: SocialLink[] = [
   },
   {
     label: "Discord",
-    href: "https://discord.com/",
+    href: "https://discord.com/users/1286745118543450112",
     color: "#818cf8",
     icon: (
       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">

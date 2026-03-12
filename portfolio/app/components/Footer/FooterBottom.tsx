@@ -57,11 +57,7 @@ export default function FooterBottom({ inView }: Props) {
             © {new Date().getFullYear()} Belatrache Ishak. All rights reserved.
           </p>
 
-          <p className="footer-built">
-            Built with
-            <span style={{ color: "#f472b6" }}>♥</span>
-            using Next.js & Tailwind CSS
-          </p>
+          {/* Removed "Built with ♥ using Next.js & Tailwind CSS" text per request */}
         </div>
       </div>
     </>
