@@ -6,8 +6,17 @@ import Navbar from "./components/navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Belatreche Ishak | Portfolio",
-  description: "UI/UX Designer & Developer Portfolio",
+  metadataBase: new URL("https://isaacbelatracheportfolio.vercel.app"),
+  title: "Belatreche Ishak | Full-Stack Developer & UI/UX Designer",
+  description: "Portfolio of Belatreche Ishak, a Full-Stack Developer and UI/UX Designer specializing in beautiful and functional web applications.",
+  keywords: ["Belatreche Ishak", "Portfolio", "Full-Stack Developer", "Web Developer", "UI/UX Designer", "Next.js", "React"],
+  openGraph: {
+    title: "Belatreche Ishak | Full-Stack Developer & UI/UX Designer",
+    description: "Portfolio of Belatreche Ishak, a Full-Stack Developer and UI/UX Designer specializing in beautiful and functional web applications.",
+    url: "https://isaacbelatracheportfolio.vercel.app",
+    siteName: "Belatreche Ishak Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
